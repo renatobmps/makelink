@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "version": "0.0.1",
+    "name": "Fazer link",
+    "description": "Extensão para fazer link",
+    "author": "Renato Brandão Martins Pinheiro Silva",
+    "browser_action": {
+        "default_title": "Fazer link",
+        "default_popup": "index.html",
+        "default_icon": "icon.png"
+    },
+    "background": {
+        "scripts": [
+            "main.js"
+        ],
+        "persistent": false
+    }
+}
